@@ -78,7 +78,7 @@ int main(int argc, char *argv[])
 				++opt_flag;
 				break;
 			case '?':
-				printf("Usage: ./hw1 [-t|--tcp][-u|--udp] [filter-string | \"regular expression\"]\n");
+				printf("Usage: ./custom_netstat [-t|--tcp][-u|--udp] [filter-string | \"regular expression\"]\n");
 				exit(1);
 		}
 	}
